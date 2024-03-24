@@ -7,11 +7,8 @@ int main(){
     cin>>n;
     if(n%3==0){
         if(n%5==0){
-            cout<<"The nmuber is divisible by 3 and 5 both";
-        }
-          else{
-            cout<<"Not matching the condition";
-           }
+            // n%3 == 0 but n % 5 !=0 
+            cout<<"The nmuber is divisible by 3 but not 5";
     }
     else{
         cout<<"Not matching the condition";
